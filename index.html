@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title, Hours, Salary</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    // Added my arrays
+    var Employee = ["Dylan", "Clawson", "Jordan", "Mayweather", "Lucas", "Patrick", "Wheat", "Livid", "LeBron", "James"];
+    var Hours = [100, 10, 1, 150, 90, 70, 60, 40, 210, 20];
+    var Salary = [150, 12, 10, 50, 70, 80, 60, 20, 200, 30];
+
+    // added a for using index in it to put everything in my website together
+    for(i=0;i <= 9; i++) {
+      var total = Hours[i] * Salary[i];
+      document.write(Employee[i] + " makes $" + total + " working " + Hours[i] + " hours a week at $" +
+    Salary[i] + " per hour. </br>");
+    }
+    </script>
+
+  </body>
+</html>
